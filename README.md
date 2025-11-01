@@ -18,7 +18,7 @@ pod install
 
 ##### Using React Native Link (React Native 0.59 and lower)
 
-Run `react-native link react-native-aes-crypto` after which you should be able to use this library on iOS.
+Run `react-native link @cometa-tec-br/react-native-aes-encryptor` after which you should be able to use this library on iOS.
 
 ### Installation (Android)
 
