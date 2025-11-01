@@ -3,9 +3,8 @@
 AES encryption/decryption for react-native
 
 ## Installation
-
 ```sh
-npm install --save react-native-aes-crypto
+npm i @cometa-tec-br/react-native-aes-encryptor
 ```
 
 or
@@ -39,8 +38,8 @@ Run `react-native link react-native-aes-crypto` after which you should be able t
 
 ```gradle
 ...
-include ':react-native-aes-crypto'
-project(':react-native-aes-crypto').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-aes-crypto/android')
+include ':react-native-aes-encryptor'
+project(':react-native-aes-encryptor').projectDir = new File(rootProject.projectDir, '../node_modules/@cometa-tec-br/react-native-aes-encryptor/android')
 ```
 
 -   In `android/app/build.gradle`
@@ -49,7 +48,7 @@ project(':react-native-aes-crypto').projectDir = new File(rootProject.projectDir
 ...
 dependencies {
     ...
-    compile project(':react-native-aes-crypto')
+    implementation project(':@cometa-tec-br/react-native-aes-encryptor')
 }
 ```
 
@@ -71,17 +70,12 @@ protected List<ReactPackage> getPackages() {
 }
 ```
 
-## Usage
-
-### Demo project
-
-[link](https://github.com/tectiv3/react-native-aes-demo)
 
 ### Example
 
 ```js
 import { NativeModules, Platform } from 'react-native'
-import Aes from 'react-native-aes-crypto'
+import Aes from '@cometa-tec-br/react-native-aes-encryptor'
 
 const generateKey = (password, salt, cost, length) => Aes.pbkdf2(password, salt, cost, length, 'sha256')
 
