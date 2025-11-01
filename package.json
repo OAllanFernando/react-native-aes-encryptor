@@ -1,6 +1,6 @@
 {
     "name": "react-native-aes-encryptor",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "Modern AES encryption library for React Native — simple, fast, and secure.",
     "main": "index.js",
     "types": "index.d.ts",
