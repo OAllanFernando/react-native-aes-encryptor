@@ -1,7 +1,7 @@
 {
-    "name": "react-native-aes-crypto",
-    "version": "3.2.1",
-    "description": "AES crypto native module for react-native",
+    "name": "react-native-aes-encryptor",
+    "version": "0.0.1",
+    "description": "Modern AES encryption library for React Native — simple, fast, and secure.",
     "main": "index.js",
     "types": "index.d.ts",
     "author": "tectiv3",
@@ -23,13 +23,13 @@
         "hmac512",
         "uuid"
     ],
-    "homepage": "https://github.com/tectiv3/react-native-aes",
+    "homepage": "https://github.com/OAllanFernando/react-native-aes-encryptor",
     "bugs": {
-        "url": "https://github.com/tectiv3/react-native-aes/issues"
+        "url": "https://github.com/OAllanFernando/react-native-aes-encryptor/issues"
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/tectiv3/react-native-aes.git"
+        "url": "git://github.com/OAllanFernando/react-native-aes-encryptor.git"
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
