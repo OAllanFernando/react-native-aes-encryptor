@@ -1,4 +1,5 @@
-# React Native AES for graddle new version
+# React Native AES encryption/decryption — compatible with modern React Native and Gradle
+
 
 AES encryption/decryption for react-native
 
