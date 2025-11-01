@@ -1,10 +1,13 @@
 {
-    "name": "react-native-aes-encryptor",
+    "name": "@cometa/react-native-aes-encryptor",
     "version": "1.0.0",
+    "publishConfig": {
+      "access": "public"
+    },
     "description": "Modern AES encryption library for React Native — simple, fast, and secure.",
     "main": "index.js",
     "types": "index.d.ts",
-    "author": "tectiv3",
+    "author": "Allan Fernando",
     "license": "MIT",
     "keywords": [
         "react-native",
