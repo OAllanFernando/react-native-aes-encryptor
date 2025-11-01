@@ -7,12 +7,6 @@ AES encryption/decryption for react-native
 npm i @cometa-tec-br/react-native-aes-encryptor
 ```
 
-or
-
-```sh
-yarn add react-native-aes-crypto
-```
-
 ### Installation (iOS)
 
 ##### Using CocoaPods (React Native 0.60 and higher)
