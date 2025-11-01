@@ -1,4 +1,4 @@
-declare module 'react-native-aes-crypto' {
+declare module '@cometa-tec-br/react-native-aes-encryptor' {
     type Algorithms = 'aes-128-cbc' | 'aes-192-cbc' | 'aes-256-cbc' | 'aes-128-ctr' | 'aes-192-ctr' | 'aes-256-ctr'
     type Algorithms_pbkdf2 = 'sha1' | 'sha256' | 'sha512'
     
